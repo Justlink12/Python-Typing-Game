@@ -1,0 +1,13 @@
+def~colorShape():
+winWidth = 400
+winHeight = 400
+win = GraphWin("Color~Shape", winWidth, winHeight)
+win.setBackground("white")
+msg = "Enter color values between 0 - 255\nClick window to color shape"
+inst = Text(Point(winWidth/2, winHeight-20), msg)
+inst.draw(win)
+shape = Circle(Point(winWidth/2, winHeight/2 - 30), 50)
+shape.draw(win)
+redTextPt = Point(winWidth/2 - 50, winHeight/2 + 40)
+redText = Text(redTextPt, "Red: ")
+redText.setTextColor("red")

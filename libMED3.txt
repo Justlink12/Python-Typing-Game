@@ -1,0 +1,14 @@
+def~binary_search(nums,target):
+mid = nums[0]+nums[-1]//2
+step_count = 0
+for~i~in~range(len(nums)):
+if~mid == target:
+return mid,step_count
+elif~mid > target:
+high = mid
+low = nums[0]
+elif~mid < target:
+low = mid
+high = nums[-1]
+mid = low+high//2
+step_count += 1

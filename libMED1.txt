@@ -1,0 +1,16 @@
+def~goodInput():
+running = True
+y = "good input!"
+while~running:
+x = int(input("please enter a number between 13-19 or 50-59:"))
+if~x>=13~and~x<=19:
+return~y,x
+elif~x>=50~and~x<=59:
+return~y,x
+else:
+print("number not inside range value")
+if~x2 > max:
+max = x2
+if~x3 > max:
+max = x3
+print(max)

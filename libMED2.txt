@@ -1,0 +1,13 @@
+def~readData(filename):
+files = open(filename,"r")
+file = files.readlines()
+actualFile = []
+for~i~in~range(len(file)):
+file[i] = file[i][:-1]
+for~k~in~file:
+k = k.split(" ")
+print(k)
+for~j~in~range(len(k)):
+actualFile.append(k[j])
+print(actualFile)
+return~actualFile

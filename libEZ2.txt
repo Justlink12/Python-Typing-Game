@@ -1,0 +1,10 @@
+def~main():
+principal = float(input("Enter~principal: "))
+apr = float(input("Enter~APR: "))
+win = GraphWin("Growth~Chart", 320, 240)
+win.setBackground("white")
+return~ win, principal, apr
+principal = principal * (1 + apr)
+xll = year * 25 + 40
+height = principal * 0.02
+bar = Rectangle(Point(xll, 230), Point(xll+25, 230-height))

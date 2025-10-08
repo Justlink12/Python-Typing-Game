@@ -1,0 +1,19 @@
+Typing Corrections: 
+
+1. WRONG: @property1 != 
+2. WRONG: deftm_wday(self)->int:... != 
+3. WRONG: @property != 
+4. WRONG: deftm_yday(self)->int:... != 
+5. WRONG: @property != 
+6. WRONG: deftm_isdst(self)=->int:... != 
+7. WRONG: @property != 
+8. WRONG: deftm_zone(self)->str:... != 
+9. WRONG: @property != 
+10. WRONG: deftm_gmtoff(self)->int:... != 
+11. WRONG: defasctime(t:_TimeTuple|struct_time=...)->str:... != 
+12. WRONG: ifsys.version_info<(3,8): != 
+13. WRONG: defclock()->float:... != 
+14. WRONG: defctime(secs:float|None=...)->str:... != 
+15. WRONG: defgmtime(secs:float|None=...)->struct_time:... != 
+16. WRONG: deflocaltime(secs:float|None=...)->struct_time:... != 
+17. WRONG: defmktime(t:_TimeTuple|struct_time)->float:... != 

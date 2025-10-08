@@ -1,0 +1,11 @@
+def~main():
+calcAvg=0.0
+grade=0.0
+loopCounter=0
+numGrades= int(input("\nenter~a~number:"))
+for~i~in~(range(numGrades)):
+loopCounter= str(i+1)
+gradeAccum=float(input("Enter~your~grade"+loopCounter+":"))
+grade= grade+gradeAccum
+calcAvg= grade/numGrades
+print("Grade~Average:",calcAvg)
